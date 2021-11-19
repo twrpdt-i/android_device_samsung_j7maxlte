@@ -1,0 +1,15 @@
+# mount point       fstype    device                                                                flags
+/boot             emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot         flags=display="Boot";backup=1;flashimg=1
+/recovery         emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery     flags=display="Recovery";backup=1;flashimg=1
+/efs              emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/EFS          flags=display="Efs"
+/nvram            emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram        flags=display="Nvram"
+/nvdata           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata       flags=display="Nvdata"
+/cache            ext4     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache        flags=display="Cache"
+/system           ext4     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system       flags=display="System";backup=1
+/data             ext4     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata     flags=display="Data"
+/misc             emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para         flags=display="Misc";backup=1;flashimg=1
+/md1img           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1img       flags=display="Md1img"
+/md1dsp           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1dsp       flags=display="Md1dsp"
+/system_image     emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system       flags=display="System image";backup=1;flashimg=1
+/external_sd      auto     /dev/block/mmcblk1p1                                               flags=display="External_sd"
+/usbotg           auto     /dev/block/sda1                                                    flags=display="Usbotg"
